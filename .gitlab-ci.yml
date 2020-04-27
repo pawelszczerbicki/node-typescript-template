@@ -1,0 +1,11 @@
+deploy:
+  stage: deploy
+  image: google/cloud-sdk:alpine
+  only:
+    - master
+  script:
+    - apk add gettext
+    - envsubst < app.template.yaml > app.yaml
+    - echo $SERVICE_ACCOUNT > /tmp/service_account.json
+    - gcloud auth activate-service-account --key-file /tmp/service_account.json
+    - gcloud app deploy
