@@ -12,12 +12,10 @@
     "gcp-build": "npm run build"
   },
   "dependencies": {
-    "@sendgrid/mail": "^7.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase-admin": "^8.10.0",
-    "mongodb": "^3.5.5",
-    "stripe": "^8.39.0"
+    "mongodb": "^3.5.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
