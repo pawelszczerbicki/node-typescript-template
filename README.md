@@ -25,6 +25,6 @@ To do so add below properties to your `gitlab` CI pipeline:
 
 When pipeline succeed project will be deployed on GCP App Engine in default service
 
-##Issues
+## Issues
 If you find any problems regarding this project please place issue on Github 
  
