@@ -1,4 +1,4 @@
-# NodeJS template with TS and 
+# NodeJS template with TS and Gitlab CI
 Simple and useful template for NodeJS written in Typescript with MongoDB and Firebase Auth support
 
 ## Run and build
@@ -15,7 +15,7 @@ Required properties are:
 
 In order to use `dotenv` rename `.env.template` to `.env`
 
-##Deploy
+## Deploy
 Project is ready to be deployed on `Google Cloud Platform (GCP)` using `Gitlab CI`
 
 To do so add below properties to your `gitlab` CI pipeline:
